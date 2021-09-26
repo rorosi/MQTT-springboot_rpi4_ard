@@ -4,9 +4,9 @@
 
 ## 1. MQTT Broker 설치
 
-...
-  sudo apt install mosquitto mosquitto-clients
-...
+```
+sudo apt install mosquitto mosquitto-clients
+```
 프로그램 서명키, 패키지 등록 절차 없이 위의 명령을 입력하면 설치된다.
 
 한방에 브로커와 클라이언트 모두 설치됨.
@@ -15,12 +15,12 @@
 
 1) 활성화하기
 
-...
-  sudo systemctl enable mosquitto
-...
+```
+sudo systemctl enable mosquitto
+```
 
 2) 동작상태 확인하기
 
-...
-  sudo systemctl status mosquitto
-...
+```
+sudo systemctl status mosquitto
+```
