@@ -37,15 +37,9 @@ mosquitto_pub -h 'IP주소' -t 'topic' -m 'message'
 ```
 IP주소 : 정확히는 호스트 주소를 의미한다. 기본 값을 127.0.0.1로 한다.
 
- 
-
 topic : 토픽 즉 주제를 의미한다. 이 주제를 선택한 대상들만 동일 메세지를 주고받을 수 있다. 게임 채널과 비교해 생각하면 이해가 쉽다. 
 
- 
-
 message : 메세지 말 그대로 주고받을 메세지 내용을 작성하면 된다.
-
- 
 
 위 세가지 모두 작성하여 발행하면 Publish는 끝난다.
 
@@ -65,9 +59,12 @@ IP주소와 topic은 Publish와 동일하게 작성하면 된다.
 
 아래 사진은 실행 결과이다
 
-1) Publish
+1. Publish
+
 ![111](https://user-images.githubusercontent.com/56014938/134811373-30342fc9-012c-4d8e-8f2b-fd7b8193dd13.png)
-2)Subscribe
+
+2. Subscribe
+
 ![222](https://user-images.githubusercontent.com/56014938/134811380-f70a7a95-19b0-4c8b-b2fa-45c8daacbad0.png)
 
 
