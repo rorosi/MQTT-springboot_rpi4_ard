@@ -57,8 +57,6 @@ mosquitto_sub -h 'IP주소' -t 'topic'
 
 IP주소와 topic은 Publish와 동일하게 작성하면 된다.
 
-아래 사진은 실행 결과이다
-
 Publish
 
 ![111](https://user-images.githubusercontent.com/56014938/134811373-30342fc9-012c-4d8e-8f2b-fd7b8193dd13.png)
